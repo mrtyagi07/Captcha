@@ -21,7 +21,7 @@ This is a simple CAPTCHA form built with React that helps prevent automated subm
 1. Clone this repository and navigate to the project directory:
 
 ```
-git clone https://github.com/mrtyagi07/captcha.git
+git clone https://github.com/mrtyagi07/Captcha.git
 cd captcha
 ```
 2. Install the dependencies:
