@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState, useRef } from "react";
+import Navbar from "./components/Navbar";
+import toast, { Toaster } from "react-hot-toast";
+import Form from "./components/Form";
+import Signup from "./components/Signup";
 
 const App = () => {
   return (
-    <div>
-      Hi
-    </div>
-  )
-}
+    <>
+      <Navbar />
+      <Toaster position="top-center" reverseOrder={false} />
+      <Signup />
+    </>
+  );
+};
 
-export default App
+export default App;
